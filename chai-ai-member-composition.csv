@@ -1,0 +1,70 @@
+Category,Role,Company
+FAANG+,Group Product Manager,Google
+FAANG+,Senior Engineering Manager,Apple
+FAANG+,Senior Product Manager,Microsoft
+FAANG+,Software Development Manager,Amazon
+FAANG+,Generative AI Solution Prototyper,AWS
+FAANG+,Product Manager,Meta
+FAANG+,Product Manager,LinkedIn
+FAANG+,Staff Engineer,Zillow
+FAANG+,Machine Learning Engineer,Adobe
+Unicorns & Growth,Principal Product Manager,Intuit
+Unicorns & Growth,Director Data Science,Visa
+Unicorns & Growth,Sr. Engineering Manager,SoFi
+Unicorns & Growth,Lead Data Scientist,Salesforce
+Unicorns & Growth,Sr. Product Manager,Palo Alto Networks
+Unicorns & Growth,Engineering Manager,DoorDash
+Unicorns & Growth,Senior Manager,Instacart
+Unicorns & Growth,Lead PM,PayPal
+Unicorns & Growth,Product Manager,Canva
+Unicorns & Growth,PM,Plaid
+Unicorns & Growth,Software Engineer,Wayve
+Enterprise/Fortune 500,VP Engineering,Backbase
+Enterprise/Fortune 500,CTO,BMC Software
+Enterprise/Fortune 500,Product Director,American Express
+Enterprise/Fortune 500,Director of Software Engineering,Bloomberg
+Enterprise/Fortune 500,Director of Product,Walmart
+Enterprise/Fortune 500,Director,Capital One
+Enterprise/Fortune 500,Transformation and Capabilities Director,Coca-Cola
+Enterprise/Fortune 500,Principal Architect,Wolters Kluwer Health
+Enterprise/Fortune 500,Sr Engineering Manager,UHG
+Enterprise/Fortune 500,Sr. Product Manager,CVS
+Enterprise/Fortune 500,Solution Architect,Accenture
+Enterprise/Fortune 500,AI/ML Solution Architect,Cummins
+Enterprise/Fortune 500,Sr Design Consultant,Cisco
+Enterprise/Fortune 500,Engineering Manager,Commonwealth Bank
+Enterprise/Fortune 500,Lead Product Owner,Lloyds Banking Group
+Enterprise/Fortune 500,Global Sourcing Manager,ANZ Bank
+Enterprise/Fortune 500,Data Scientist,American Airlines
+Enterprise/Fortune 500,Data Scientist,Centers for Medicare & Medicaid
+Enterprise/Fortune 500,Product Analyst,Credit Karma
+Enterprise/Fortune 500,Engineer,Chase
+Startups & Scale-ups,CEO & Co-founder,YC-backed startup
+Startups & Scale-ups,Founder and CTO,AI startup
+Startups & Scale-ups,CEO & MarTech Consultant,Digital agency
+Startups & Scale-ups,VP of Engineering,Fintech startup
+Startups & Scale-ups,CTO,AI Labs
+Startups & Scale-ups,CPTO,Investment firm
+Startups & Scale-ups,Sr Director of Product,Background check platform
+Startups & Scale-ups,Ex-Head of Product,AI startup
+Startups & Scale-ups,Head of Engineering,EdTech startup
+Startups & Scale-ups,Director of Products,Enterprise software
+Startups & Scale-ups,Director,Audible
+Startups & Scale-ups,Software Engineering Manager,Indeed
+Startups & Scale-ups,Sr Data Scientist,Navan
+Startups & Scale-ups,AI Engineer,Crypto exchange
+Non-Profit/Academia,Sr. Director Product Management,Simons Foundation
+Non-Profit/Academia,Professor,Columbia University
+Non-Profit/Academia,Physician-Scientist,Medical research
+Non-Profit/Academia,Product Manager,GovTech Singapore
+Consulting & Services,Assistant Vice President,Analytics consulting
+Consulting & Services,Director Technical Delivery,Healthcare AI
+Consulting & Services,Enterprise Product and Delivery Coach,Pension fund
+Consulting & Services,Engineering Leader & Coach,Independent
+Consulting & Services,AI Architect,Independent
+Consulting & Services,Solution Architect,Enterprise consulting
+Other,Engineering Manager,Stealth startup
+Other,Product Manager,Stealth startup
+Other,Senior Software Engineer,Stealth startup
+Other,Data Scientist,Stealth startup
+Other,AI Solutions Engineer,Stealth startup

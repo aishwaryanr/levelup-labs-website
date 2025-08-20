@@ -10,15 +10,16 @@
     <header>
         <nav>
             <div class="logo">
-                <h1>LevelUp Labs</h1>
+                <a href="index.html">
+                    <img src="assets/images/png-format/levelup-full-logo.png" alt="LevelUp Labs" class="logo-image">
+                </a>
             </div>
             <ul class="nav-links">
                 <li><a href="#services">Services</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#testimonials">Testimonials</a></li>
                 <li><a href="resources.html">Resources</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="community.html">Community</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -27,32 +28,97 @@
     <main>
         <section id="hero">
             <div class="container">
-                <h2>LevelUp Labs</h2>
+                <div class="hero-logo">
+                    <img src="assets/images/png-format/levelup-full-logo.png" alt="LevelUp Labs" class="hero-logo-image">
+                </div>
                 <p>Applied AI Consulting, Corporate Training, and Early-Stage Investing.</p>
-                <p>We're a team of forward-deployed AI specialists who work closely with your teams to strategize, design, and build production-grade systems — always with a problem-first, enterprise-focused mindset.</p>
-                <button id="open-modal" class="cta-button">Ready to levelup? Let's discuss how we can help</button>
+                <p>We're a team of forward-deployed AI specialists who work closely with your teams to strategize, design, and build production-grade systems, always with a <a href="problem-first-approach.html" class="approach-link" style="font-weight: bold; font-style: italic; color: #2563eb;">problem-first</a>, enterprise-focused mindset.</p>
+                <button id="open-modal" class="cta-button">Let's Talk</button>
             </div>
         </section>
 
         <section id="services">
             <div class="container">
                 <h2>What We Do</h2>
-                <div class="services-grid">
-                    <div class="service-card">
-                        <h3>AI Advisory</h3>
-                        <p>Strategic guidance on AI vision, problem-scoping, and implementation roadmaps tailored to your business constraints.</p>
+                <div class="services-list">
+                    <div class="service-item" data-service="advisory">
+                        <div class="service-header">
+                            <div class="service-title">
+                                <span class="service-number">01</span>
+                                <h3>AI Advisory</h3>
+                            </div>
+                            <div class="service-summary">Strategic guidance tailored to your business</div>
+                            <div class="expand-icon">+</div>
+                        </div>
+                        <div class="service-details">
+                            <p>We provide strategic guidance on AI vision, problem-scoping, and implementation roadmaps tailored to your specific business constraints and objectives.</p>
+                            <ul>
+                                <li>AI strategy development and roadmapping</li>
+                                <li>Technology assessment and feasibility studies</li>
+                                <li>ROI analysis and business case development</li>
+                                <li>Risk assessment and mitigation planning</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <h3>Hands-on Implementation</h3>
-                        <p>Engineering team augmentation and direct implementation of production-ready AI systems.</p>
+                    
+                    <div class="service-item" data-service="implementation">
+                        <div class="service-header">
+                            <div class="service-title">
+                                <span class="service-number">02</span>
+                                <h3>Hands-on Implementation</h3>
+                            </div>
+                            <div class="service-summary">Engineering team augmentation and delivery</div>
+                            <div class="expand-icon">+</div>
+                        </div>
+                        <div class="service-details">
+                            <p>Our experienced engineers work directly with your teams to build and deploy production-ready AI systems that solve real business problems.</p>
+                            <ul>
+                                <li>End-to-end AI system development</li>
+                                <li>Team augmentation and knowledge transfer</li>
+                                <li>Production deployment and scaling</li>
+                                <li>System integration and optimization</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <h3>Corporate Training</h3>
-                        <p>Comprehensive training programs and workshops to upskill your teams in AI technologies and best practices.</p>
+                    
+                    <div class="service-item" data-service="training">
+                        <div class="service-header">
+                            <div class="service-title">
+                                <span class="service-number">03</span>
+                                <h3>Corporate Training</h3>
+                            </div>
+                            <div class="service-summary">Upskill your teams in AI technologies</div>
+                            <div class="expand-icon">+</div>
+                        </div>
+                        <div class="service-details">
+                            <p>Comprehensive training programs and workshops designed to upskill your teams in AI technologies, best practices, and implementation strategies.</p>
+                            <ul>
+                                <li>Executive AI literacy workshops</li>
+                                <li>Technical training for development teams</li>
+                                <li>Custom curriculum development</li>
+                                <li>Ongoing mentorship and support</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="service-card">
-                        <h3>Strategic Investments</h3>
-                        <p>We invest in promising AI companies and technologies. If you're building innovative AI solutions, we'd love to hear from you.</p>
+                    
+                    <div class="service-item" data-service="investment">
+                        <div class="service-header">
+                            <div class="service-title">
+                                <span class="service-number">04</span>
+                                <h3>Strategic Investments</h3>
+                            </div>
+                            <div class="service-summary">Funding for innovative AI solutions</div>
+                            <div class="expand-icon">+</div>
+                        </div>
+                        <div class="service-details">
+                            <p>We invest in promising AI companies and technologies. If you're building innovative AI solutions that solve real-world problems, we'd love to hear from you.</p>
+                            <ul>
+                                <li>Early-stage AI company investments</li>
+                                <li>Strategic partnership opportunities</li>
+                                <li>Technical due diligence and support</li>
+                                <li>Portfolio company mentorship</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -60,78 +126,70 @@
 
         <section id="about">
             <div class="container">
-                <h2>About Us</h2>
-                <p>We are a specialized team of AI experts who understand that successful AI implementation isn't just about technology—it's about solving real business problems with the right approach. Our problem-first, enterprise-grade mindset ensures that every solution we deliver is production-ready and aligned with your business objectives.</p>
+                <h2>About LevelUp Labs</h2>
+                <div class="about-content">
+                    <div class="founder-section">
+                        <p>LevelUp Labs was founded by <strong>Aishwarya Naresh Reganti</strong>, an AI researcher and practitioner with over a decade of experience building and scaling machine learning systems. She has published 35+ research papers at top-tier AI conferences, including <strong>AAAI, CVPR, and NeurIPS</strong>.</p>
+                        
+                        <p>Before founding LevelUp Labs, she served as a tech lead and forward-deployed AI engineer at the <strong>AWS Generative AI Innovation Center</strong>, where she led and implemented over 20 AI solutions for a wide range of AWS clients. Her work spanned industries such as ISVs, banking, healthcare, e-commerce, and legal tech, with publicly referenced engagements including <strong>Bayer, NFL, Zillow, Kayak, and Imply</strong> (creators of Apache Druid).</p>
+                        
+                        <p>Prior to that, she worked on Amazon's recommendation systems, applying graph neural networks for large-scale personalization, and contributed to early natural language understanding research for Alexa.</p>
+                    </div>
+                    
+                    <div class="approach-section">
+                        <p>LevelUp Labs brings together years of academic research and real-world deployment experience to help companies design AI products that are intentional, measurable, and built to last. Drawing on a track record of successful implementations and research-backed thinking, Aishwarya pioneered the <strong><a href="problem-first-approach.html" class="approach-link">Problem-First Approach</a></strong>, a systematic method for building AI solutions that align with business context, constraints, and outcomes.</p>
+                    </div>
+                    
+                    <div class="network-section">
+                        <h4>Our Expert Network</h4>
+                        <p>We collaborate with a trusted network of product and engineering leaders from <strong>Microsoft, Meta, Google, OpenAI, AWS, YC-backed startups, and more</strong>. These experts step in on demand to support with strategy, architectural reviews, roadmap design, scaling, product vision, and other critical decisions across the AI product lifecycle.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="testimonials">
             <div class="container">
-                <h2>Testimonials</h2>
+                <h2>Trusted by Global Leaders and Builders</h2>
                 <div class="testimonials-grid">
                     <div class="testimonial-card">
-                        <p>"LevelUp Labs transformed our AI strategy from scattered experiments to a focused, production-ready system that delivers real business value."</p>
-                        <cite>- Client testimonial coming soon</cite>
+                        <p>"I gained practical insights into designing AI agents that start with real-world problems, not just shiny tools."</p>
+                        <cite>- Nandhini Gunalan, Director of QA, AWS</cite>
                     </div>
                     <div class="testimonial-card">
-                        <p>"Their problem-first approach helped us avoid common pitfalls and build AI systems that actually work within our constraints."</p>
-                        <cite>- Client testimonial coming soon</cite>
+                        <p>"The <a href="https://maven.com/aishwarya-kiriti/genai-system-design" class="testimonial-link">course</a> fundamentally rewired how I think about building enterprise-ready AI agents and solutions. The emphasis on obsessing over the problem, the persona, and evaluating every interaction before jumping into code was a core takeaway."</p>
+                        <cite>- Akshay Menon, ML/AI Manager, HubSpot</cite>
                     </div>
+                    <div class="testimonial-card">
+                        <p>"Aishwarya is a brilliant and innovative mind with exceptional depth of expertise in engineering and AI/ML. Her technical acumen is unparalleled, and her ability to break down complex concepts into actionable insights was truly impressive."</p>
+                        <cite>- Founder, Zastra</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"So much of the AI world is shrouded in hype, but Aishwarya and team are brilliant and absolute masters at stripping it all away. They're guiding how to build agentic AI applications from a first-principles perspective."</p>
+                        <cite>- Sumedha Saini, Head of Engineering, Storypark</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"My company is building at the edges, and I received immense value that is immediately practical and has contributed to shaping our roadmap and vision in a measurable way."</p>
+                        <cite>- Karla Kongson, CEO, Agentiiv</cite>
+                    </div>
+                    <div class="testimonial-card">
+                        <p>"I will be recommending the <a href="https://maven.com/aishwarya-kiriti/genai-system-design" class="testimonial-link">course</a> to every person in my organization and network who is interested in a practical approach to learning core concepts in agentic AI and applying them."</p>
+                        <cite>- Ram, CTO, BMC Software</cite>
+                    </div>
+                </div>
+                
+                <div class="testimonials-footer">
+                    <p>You can find additional testimonials for our <a href="https://maven.com/aishwarya-kiriti/genai-system-design" class="testimonial-link">course</a>, <a href="https://intro.co/AishwaryaNareshReganti?source=intro" class="testimonial-link">consulting (one-off)</a>, and <a href="https://testimonial.to/building-agentic-ai-applications-with-a-problem-first-approach/all" class="testimonial-link">other work</a> here. Happy to provide references from clients we've consulted with if needed.</p>
                 </div>
             </div>
         </section>
 
-        <section id="resources">
-            <div class="container">
-                <h2>Resources</h2>
-                <p>Access our curated collection of AI resources, guides, and best practices to accelerate your AI journey.</p>
-                <div class="resources-grid">
-                    <div class="resource-card">
-                        <h3>AI Implementation Guide</h3>
-                        <p>Step-by-step guide to implementing AI in enterprise environments.</p>
-                    </div>
-                    <div class="resource-card">
-                        <h3>Best Practices</h3>
-                        <p>Proven methodologies for successful AI project delivery.</p>
-                    </div>
-                    <div class="resource-card">
-                        <h3>Case Studies</h3>
-                        <p>Real-world examples of successful AI implementations.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="community">
-            <div class="container">
-                <h2>Community</h2>
-                <p>Join our community of AI practitioners, leaders, and enthusiasts. Share insights, ask questions, and stay updated on the latest trends in enterprise AI.</p>
-                <div class="community-links">
-                    <a href="#" class="community-link">LinkedIn</a>
-                    <a href="#" class="community-link">Newsletter</a>
-                    <a href="#" class="community-link">Events</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="blog">
-            <div class="container">
-                <h2>AI Field Notes</h2>
-                <p>Insights, experiences, and learnings from the field of AI implementation.</p>
-                <div class="blog-posts">
-                    <article class="blog-post">
-                        <h3>Coming Soon: AI Implementation Insights</h3>
-                        <p>Stay tuned for our latest thoughts on AI strategy and implementation.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
 
         <section id="contact">
             <div class="container">
                 <h2>Get In Touch</h2>
                 <p>Ready to transform your AI journey? Let's discuss how we can help.</p>
-                <button id="open-modal-alt" class="cta-button">Ready to levelup? Let's discuss how we can help</button>
+                <button id="open-modal-alt" class="cta-button">Let's Talk</button>
             </div>
         </section>
 
@@ -220,8 +278,9 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 LevelUp Labs. All rights reserved.</p>
+            <p>&copy; 2025 LevelUp Labs. All rights reserved.</p>
             <p>Contact us: <a href="mailto:contact@levelup-labs.ai">contact@levelup-labs.ai</a></p>
+            <p>Follow us: <a href="https://www.linkedin.com/company/levelup-labs-ai/" target="_blank">LinkedIn</a></p>
         </div>
     </footer>
 

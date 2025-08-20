@@ -1,7 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "WebFetch(domain:www.nextgenproductmanager.com)",
+      "WebFetch(domain:www.linkedin.com)",
+      "WebFetch(domain:thenuancedperspective.substack.com)",
+      "Bash(cp:*)",
+      "Bash(cut:*)",
+      "Bash(pkill:*)",
+      "Bash(find:*)",
+      "Bash(node:*)",
+      "Bash(curl:*)"
     ],
     "deny": []
   }

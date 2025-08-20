@@ -10,16 +10,18 @@
     <header>
         <nav>
             <div class="logo">
-                <h1><a href="/">LevelUp Labs</a></h1>
+                <a href="index.html">
+                    <img src="assets/images/png-format/levelup-full-logo.png" alt="LevelUp Labs" class="logo-image">
+                </a>
             </div>
             <ul class="nav-links">
-                <li><a href="/#services">Services</a></li>
-                <li><a href="/#about">About</a></li>
-                <li><a href="/#testimonials">Testimonials</a></li>
-                <li><a href="/resources.html">Resources</a></li>
-                <li><a href="/#community">Community</a></li>
-                <li><a href="/blog.html" class="active">Blog</a></li>
-                <li><a href="/#contact">Contact</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#testimonials">Testimonials</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,41 +31,32 @@
             <div class="container">
                 <h1>AI Field Notes</h1>
                 <p>Insights, experiences, and learnings from the field of AI implementation.</p>
+                
+                <!-- Blog Controls -->
+                <div class="blog-controls">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search posts..." class="search-input">
+                    </div>
+                    <div class="filter-container">
+                        <select id="sortSelect" class="sort-select">
+                            <option value="newest">Newest First</option>
+                            <option value="oldest">Oldest First</option>
+                            <option value="title">By Title</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section id="blog-posts">
             <div class="container">
-                <div class="blog-grid">
-                    <article class="blog-post-card">
-                        <h2><a href="blog/sample-post.html">The Problem-First Approach to AI Implementation</a></h2>
-                        <div class="post-meta">
-                            <span class="date">Coming Soon</span>
-                            <span class="category">Strategy</span>
-                        </div>
-                        <p>Why starting with the problem, not the technology, leads to more successful AI implementations.</p>
-                        <a href="blog/sample-post.html" class="read-more">Read More</a>
-                    </article>
-
-                    <article class="blog-post-card">
-                        <h2><a href="blog/enterprise-ai-constraints.html">Building AI Systems That Fit Business Constraints</a></h2>
-                        <div class="post-meta">
-                            <span class="date">Coming Soon</span>
-                            <span class="category">Implementation</span>
-                        </div>
-                        <p>How to design AI systems that work within real-world business limitations and requirements.</p>
-                        <a href="blog/enterprise-ai-constraints.html" class="read-more">Read More</a>
-                    </article>
-
-                    <article class="blog-post-card">
-                        <h2><a href="blog/ai-team-augmentation.html">The Role of Forward-Deployed AI Specialists</a></h2>
-                        <div class="post-meta">
-                            <span class="date">Coming Soon</span>
-                            <span class="category">Team Building</span>
-                        </div>
-                        <p>How embedding AI specialists within your team accelerates successful implementation.</p>
-                        <a href="blog/ai-team-augmentation.html" class="read-more">Read More</a>
-                    </article>
+                <div id="loadingMessage" class="loading-message">Loading posts from The Nuanced Perspective...</div>
+                <div id="errorMessage" class="error-message" style="display: none;">Failed to load posts. Please try again later.</div>
+                <div class="blog-grid" id="blogGrid">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+                <div id="loadMoreContainer" class="load-more-container" style="display: none;">
+                    <button id="loadMoreBtn" class="load-more-btn">Load More Posts</button>
                 </div>
             </div>
         </section>
