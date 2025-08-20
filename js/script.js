@@ -85,67 +85,7 @@ serviceCheckboxes.forEach(checkbox => {
     });
 });
 
-// Form submission handling (only if form exists)
-const contactForm = document.getElementById('contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    // Get form data
-    const formData = new FormData(this);
-    const data = {};
-    
-    // Convert FormData to object
-    for (let [key, value] of formData.entries()) {
-        if (data[key]) {
-            // Handle multiple values (like checkboxes)
-            if (Array.isArray(data[key])) {
-                data[key].push(value);
-            } else {
-                data[key] = [data[key], value];
-            }
-        } else {
-            data[key] = value;
-        }
-    }
-    
-    // Handle checkboxes specifically
-    const services = formData.getAll('services');
-    if (services.length > 0) {
-        data.services = services;
-    }
-    
-    // Create email body
-    const emailBody = `
-New Contact Form Submission:
-
-Name: ${data.name}
-Email: ${data.email}
-Company: ${data.company}
-Role: ${data.role}
-Services Interested In: ${Array.isArray(data.services) ? data.services.join(', ') : data.services || 'None selected'}
-${data['project-stage'] ? `Project Stage: ${data['project-stage']}` : ''}
-Timeline: ${data.timeline}
-Budget: ${data.budget || 'Not specified'}
-
-Additional Notes:
-${data['additional-info'] || 'None provided'}
-    `;
-    
-    // Create mailto link
-    const mailtoLink = `mailto:contact@levelup-labs.ai?subject=New Contact Form Submission from ${data.name}&body=${encodeURIComponent(emailBody)}`;
-    
-    // Open email client
-    window.location.href = mailtoLink;
-    
-    // Show success message and close modal
-    alert('Thanks! We\'ll reach out to you soon.');
-    
-    // Reset form and close modal
-    this.reset();
-    closeModal();
-    });
-}
+// Form submission now handled by Netlify - no JavaScript needed
 
 // Add active navigation highlighting
 window.addEventListener('scroll', function() {
