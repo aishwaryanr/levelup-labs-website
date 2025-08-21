@@ -85,7 +85,7 @@ serviceCheckboxes.forEach(checkbox => {
     });
 });
 
-// Form submission now handled by Netlify - no JavaScript needed
+// Form submission now handled by Web3Forms - no JavaScript needed
 
 // Add active navigation highlighting
 window.addEventListener('scroll', function() {
