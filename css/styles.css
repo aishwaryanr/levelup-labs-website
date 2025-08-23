@@ -1671,3 +1671,34 @@ footer a:hover {
         overflow-y: auto;
     }
 }
+
+/* Extra specific mobile logo fixes */
+@media screen and (max-width: 768px) {
+    header .logo-image,
+    nav .logo-image,
+    .logo .logo-image {
+        height: 28px !important;
+        max-width: 140px !important;
+    }
+    
+    #hero .hero-logo-image,
+    .hero-logo .hero-logo-image {
+        height: 80px !important;
+        max-width: 240px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header .logo-image,
+    nav .logo-image,
+    .logo .logo-image {
+        height: 24px !important;
+        max-width: 120px !important;
+    }
+    
+    #hero .hero-logo-image,
+    .hero-logo .hero-logo-image {
+        height: 60px !important;
+        max-width: 200px !important;
+    }
+}

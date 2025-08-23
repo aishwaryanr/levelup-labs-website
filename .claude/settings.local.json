@@ -16,7 +16,8 @@
       "Bash(git commit:*)",
       "Bash(git pull:*)",
       "Bash(nslookup:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(ls:*)"
     ],
     "deny": []
   }
