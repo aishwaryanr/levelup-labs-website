@@ -1606,7 +1606,22 @@ footer a:hover {
     }
 
     nav {
-        padding: 1rem 20px;
+        padding: 0.75rem 15px;
+    }
+    
+    .logo-image {
+        height: 28px !important;
+        max-width: 140px;
+    }
+    
+    .hero-logo-image {
+        height: 80px !important;
+        max-width: 240px;
+    }
+    
+    #hero {
+        padding: 6rem 0 3rem;
+        text-align: center;
     }
 }
 
@@ -1616,7 +1631,30 @@ footer a:hover {
     }
     
     #hero h2 {
-        font-size: 2rem;
+        font-size: 1.75rem;
+    }
+    
+    nav {
+        padding: 0.5rem 10px;
+    }
+    
+    .logo-image {
+        height: 24px !important;
+        max-width: 120px;
+    }
+    
+    .hero-logo-image {
+        height: 60px !important;
+        max-width: 200px;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    #hero p {
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
     }
     
     .service-card,
@@ -1624,5 +1662,12 @@ footer a:hover {
     .resource-card,
     .blog-post {
         padding: 1.5rem;
+    }
+    
+    .modal-content {
+        margin: 10% auto;
+        width: 95%;
+        max-height: 90vh;
+        overflow-y: auto;
     }
 }
