@@ -429,6 +429,19 @@ p {
     color: #525252;
 }
 
+.founder-link {
+    color: #1c1c1c;
+    text-decoration: underline;
+    text-decoration-color: rgba(28, 28, 28, 0.3);
+    text-underline-offset: 3px;
+    transition: all 0.2s ease;
+}
+
+.founder-link:hover {
+    text-decoration-color: #1c1c1c;
+    color: #525252;
+}
+
 /* Testimonials */
 .testimonials-grid {
     display: grid;

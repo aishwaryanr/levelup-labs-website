@@ -17,7 +17,12 @@
       "Bash(git pull:*)",
       "Bash(nslookup:*)",
       "Bash(grep:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(cat:*)",
+      "Bash(gh repo view:*)",
+      "Bash(rm:*)",
+      "Bash(dig:*)",
+      "WebFetch(domain:docs.github.com)"
     ],
     "deny": []
   }
